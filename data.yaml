@@ -1,0 +1,12 @@
+path: C:/Users/Admin/Desktop/PythonProject/data/soccer_players.v2i.yolov5pytorch
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+
+names:
+  0: player
+  1: referee
+  2: ball
