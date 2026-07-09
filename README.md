@@ -5,6 +5,7 @@ A PyTorch implementation of **YOLOv5** for real-time object detection. The proje
 ---
 
 ## Demo
+
 <p align="center">
   <img src="runs/detect/exp/demo.gif" width="800">
 
@@ -18,13 +19,13 @@ Real-time object detection using YOLOv5.
 
 ## Requirements
 
-* Python 3.10+
-* PyTorch
-* TorchVision
-* OpenCV
-* NumPy
-* Matplotlib
-* tqdm
+- Python 3.10+
+- PyTorch
+- TorchVision
+- OpenCV
+- NumPy
+- Matplotlib
+- tqdm
 
 ```bash
 pip install -r requirements.txt
@@ -60,4 +61,5 @@ python train.py
 ```bash
 python detect.py --weights runs/train/exp/weights/best.pt --source demo/test1.jpg
 ```
-"# Yolo-v5-for-object-detection" 
+
+"# Yolo-v5-for-object-detection"
